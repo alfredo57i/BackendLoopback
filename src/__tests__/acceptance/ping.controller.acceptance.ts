@@ -1,9 +1,9 @@
 import {Client, expect} from '@loopback/testlab';
-import {MimeubackendApplication} from '../..';
+import {bakcendApplication} from '../..';
 import {setupApplication} from './test-helper';
 
 describe('PingController', () => {
-  let app: MimeubackendApplication;
+  let app: bakcendApplication;
   let client: Client;
 
   before('setupApplication', async () => {

@@ -1,9 +1,9 @@
-import {ApplicationConfig, MimeubackendApplication} from './application';
+import {ApplicationConfig, bakcendApplication} from './application';
 
 export * from './application';
 
 export async function main(options: ApplicationConfig = {}) {
-  const app = new MimeubackendApplication(options);
+  const app = new bakcendApplication(options);
   await app.boot();
   await app.start();
 

@@ -11,7 +11,7 @@ import {UsuarioStrategy} from './strategies/usuario.strategy';
 
 export {ApplicationConfig};
 
-export class MimeubackendApplication extends BootMixin(
+export class bakcendApplication extends BootMixin(
   ServiceMixin(RepositoryMixin(RestApplication)),
 ) {
   constructor(options: ApplicationConfig = {}) {

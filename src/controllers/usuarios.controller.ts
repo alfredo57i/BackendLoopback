@@ -29,6 +29,7 @@ export class UsuariosController {
   //####################################################################################
   //Login usuario obtener token
   //Retorna los datos del usuario para verificar si puede iniciar sesión.
+  @authenticate.skip()
   @post('/login', {
     responses: {
       '200': {
